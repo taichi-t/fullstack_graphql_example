@@ -1,11 +1,11 @@
-const books = [
+const users = [
   {
-    title: 'The Awakening',
-    author: 'Kate Chopin',
+    id: 1,
+    name: 'Kate Chopin',
   },
   {
-    title: 'City of Glass',
-    author: 'Paul Auster',
+    id: 2,
+    name: 'Paul Auster',
   },
 ];
 
@@ -14,6 +14,6 @@ const books = [
 
 export default {
   Query: {
-    books: () => books,
+    users: () => users,
   },
 };
