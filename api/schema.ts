@@ -5,8 +5,8 @@ export default gql`
 
   # This "User" type defines the queryable fields for every User in our data source.
   type User {
-    id: Int
-    name: String
+    id: Int!
+    name: String!
   }
 
   # The "Query" type is special: it lists all of the available queries that
